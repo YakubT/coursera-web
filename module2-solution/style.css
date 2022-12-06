@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
 }
-
+body {
+  font-size: 1vw;
+}
 h1 {
-  font-size: 2vmax;
+  font-size: 275%;
 }
 
 #site_title {
