@@ -2,18 +2,24 @@
   box-sizing: border-box;
 }
 body {
+  font-family: Times New Roman;
   font-size: 2vh;
 }
 h1 {
-  font-size: 275%;
+  font-size: 175%;
 }
-p {
+
+h2 {
+  font-size: 125%;
+}
+section {
   overflow: hidden;
   background-color: gray;
   border: black 1px solid;
   height: 90px;
   margin-left: 4vw;
   margin-right: 4vw;
+  margin-bottom: 5vh;
 }
 #site_title {
   font-family: Comic Sans MS, Arial Black;
