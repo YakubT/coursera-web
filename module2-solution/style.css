@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 2vmax;
+}
+
+#site_title {
+  font-family: Comic Sans MS, Arial Black;
+  font-style: bold;
+  text-align: center;
+}
+
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
