@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Times New Roman;
-  font-size: 2vh;
+  font-family: Courier New;
+  font-size: 24px;
 }
 h1 {
   font-size: 175%;
@@ -16,7 +16,7 @@ section {
   overflow: hidden;
   background-color: gray;
   border: black 1px solid;
-  height: 90px;
+  height: 170px;
   margin-left: 4vw;
   margin-right: 4vw;
   margin-bottom: 5vh;
@@ -27,6 +27,31 @@ section {
   text-align: center;
 }
 
+.mini-title {
+  margin-top: 0%;
+  margin-bottom: 1%;
+  padding: 18px;
+  position: relative;
+  width: 55%;
+  height: 60px;
+  text-align: center;
+  font-style:bold;
+  left: 50%;
+  border: solid black 1px;
+}
+#Chicken {
+  background-color: pink; 
+  color: black;
+}
+#Beef {
+  background-color: red;
+  color: white;
+}
+
+#Sushi {
+  background-color: beige;
+   color: black;
+}
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
